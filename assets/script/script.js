@@ -38,6 +38,7 @@ function generatePassword() {
     }
 
       var passwordContent = []
+      var newPassword = ""
       
       if (confirmNumbers) {
         passwordContent = passwordContent.concat(numbers)
@@ -52,8 +53,6 @@ function generatePassword() {
         passwordContent = passwordContent.concat(symbols)
       }
 
-      var newPassword = ""
-      
       for (var i = 0; i < passwordLength; i++) {
         newPassword = newPassword + passwordContent[Math.floor(Math.random() * passwordContent.length)];
       }
