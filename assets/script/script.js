@@ -8,7 +8,7 @@ const lettersUpper = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L"
 const symbols = ["!", "%", "&", ",", "*", "+", "-", ".", "/", "<", ">", "?","~"];
 
 //Variables
-let passwordLength = "";
+let passwordLength;
 let confirmSymbols;
 let confirmNumbers;
 let confirmUpper;
